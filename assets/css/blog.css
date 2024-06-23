@@ -1,0 +1,9 @@
+#posts {
+    max-width: 800px;
+    margin: auto;
+}
+.blog-post {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
