@@ -1,9 +1,19 @@
 form {
-    display: flex;
-    flex-direction: column;
     max-width: 600px;
-    margin: auto;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
 }
-label, input, textarea, button {
+
+label {
+    display: block;
+    margin-bottom: .5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: .5em;
     margin-bottom: 1em;
+    border: 1px solid #ccc;
 }
