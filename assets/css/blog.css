@@ -1,3 +1,4 @@
+/* Styles for the blog posts page */
 main {
     padding: 1em;
 }
@@ -12,4 +13,11 @@ main {
     border: 1px solid #ddd;
     padding: 1em;
     margin-bottom: 1em;
+}
+
+/* Dark mode styles for the blog posts page */
+body.dark-mode .post {
+    background-color: #444;
+    color: #f1f1f1;
+    border: 1px solid #666;
 }
