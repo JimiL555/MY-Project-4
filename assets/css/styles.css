@@ -1,25 +1,8 @@
+/* General styles for both pages */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* Add to styles.css or dark-mode.css */
-body.dark-mode {
-    background-color: #333;
-    color: #f1f1f1;
-}
-
-body.dark-mode header {
-    background-color: #555;
-}
-
-body.dark-mode footer {
-    background-color: #444;
-}
-
-body.dark-mode .post {
-    background-color: #444;
-    color: #f1f1f1;
-}
 }
 
 header {
@@ -37,5 +20,23 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
 
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+body.dark-mode header {
+    background-color: #555;
+}
+
+body.dark-mode footer {
+    background-color: #444;
+}
+
+body.dark-mode .post {
+    background-color: #444;
+    color: #f1f1f1;
 }
