@@ -13,8 +13,16 @@ document.addEventListener('DOMContentLoaded', function() {
         postsContainer.appendChild(postElement);
     });
     
+    // Check for saved mode in localStorage
+    const currentMode = localStorage.getItem('mode');
+    if (currentMode === 'dark') {
+        document.body.classList.add('dark-mode');
+    }
+
     document.getElementById('toggleMode').addEventListener('click', function() {
         document.body.classList.toggle('dark-mode');
+        const mode = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+        localStorage.setItem('mode', mode);
     });
     
     document.getElementById('backButton').addEventListener('click', function() {
